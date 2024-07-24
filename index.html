@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bross</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+    
+    <div class="header">
+        <img src="./img/logo-header.png" alt="header">
+        <a>Home</a>
+        <a>Nossos serviços</a>
+        <a>Fale conosco</a>
+    </div>
+
+
+
+    <div class="mother-box">
+
+        <div class="caixa1">
+            
+            <img src="./img/logo.png" alt="logo-mario" class="logo">
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!</p>
+            <br>
+            <p>Você já se encontrou em uma situação de emergência com um encanamento? Vazamentos inesperados, canos
+                entupidos ou
+                torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos
+                a
+                vocês
+                os encanadores mais famosos do Reino dos Cogumelos- Mario e Luigi!</p>
+
+            <button onclick="mostrarForm()">ENTRAR EM CONTATO</button>
+
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="mario e luigi" class="mario-luigi">
+        </div>
+
+        <a href="https://web.whatsapp.com/" class="whats">
+            <img src="./img/whatsapp.png" alt="whatsapp" class="whats">
+        </a>
+
+
+    </div>
+
+
+    <div class="movie-box">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="fumê"></div>
+    </div>
+
+    <form 
+        class="formulario-caixa"   
+        action="https://formcarry.com/s/oRZg_jbj04z"
+        method="POST"
+        enctype="multipart/form-data">
+        
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui..." name="problema"></textarea>
+            <button type="submit">Pedir Orçamento</button>
+
+
+    </form>
+</body>
+
+<script src="scripts.js"></script>
+
+
+</html>
